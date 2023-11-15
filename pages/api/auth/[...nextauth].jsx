@@ -18,10 +18,7 @@ export const authOptions = {
       async authorize(credentials) {
         var sql = "SELECT * FROM AdminLogin WHERE id=? AND pw=?";
         let user = await executeQuery(sql, [credentials.id, credentials.pw]);
-        console.log("----------eeeeee----------");
         console.log(user[0]);
-        console.log("----------eeeeee----------");
-
         if (user.length == 0) {
           console.log("실패임");
           return null;
@@ -46,10 +43,6 @@ export const authOptions = {
         token.user = {};
         token.user.id = user[0].id;
         token.user.pw = user[0].pw;
-        console.log("-------------rrrrrr------------");
-        console.log(token.user.id);
-        console.log(token.user.pw);
-        console.log("-------------rrrrrr------------");
       }
       return token;
     },

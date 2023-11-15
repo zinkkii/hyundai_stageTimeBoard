@@ -4,7 +4,6 @@ import { Typography, Stack, Divider, TextField, Button } from "@mui/material";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { signIn } from "next-auth/react";
-import { useRouter } from "next/navigation";
 
 export default function AdminLogin() {
   const { register, handleSubmit } = useForm();
