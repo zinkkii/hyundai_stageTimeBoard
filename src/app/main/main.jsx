@@ -56,6 +56,7 @@ export default function Main() {
           >
             <Typography
               sx={{
+                color: "#222",
                 fontSize: { xs: "3.5rem", sm: "7rem", md: "12rem" },
                 fontFamily: "Hbold",
                 letterSpacing: { xs: "-1.5px", sm: "-2.3px", md: "-3.3px" },
@@ -68,6 +69,7 @@ export default function Main() {
             </Typography>
             <Typography
               sx={{
+                color: "#222",
                 fontSize: { xs: "1.5rem", sm: "2.3rem", md: "5rem" },
                 fontFamily: "Hmedium",
                 letterSpacing: "1px",
