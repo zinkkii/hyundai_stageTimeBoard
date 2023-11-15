@@ -1,4 +1,4 @@
-import { executeQuery } from "@/app/DB/db";
+import { executeQuery } from "../../../src/app/db/db";
 import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 
