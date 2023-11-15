@@ -81,7 +81,7 @@ export default function Main() {
             <div>
               <TableContainer
                 sx={{
-                  maxHeight: "70vh",
+                  maxHeight: "50vh",
                   marginLeft: -2,
                 }}
               >
